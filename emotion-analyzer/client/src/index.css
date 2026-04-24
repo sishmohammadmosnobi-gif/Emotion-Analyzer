@@ -1,0 +1,11 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #061a0f;
+  color: #e8f5e9;
+  min-height: 100vh;
+}
+input, button { font-family: inherit; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a2214; }
+::-webkit-scrollbar-thumb { background: #2e7d32; border-radius: 3px; }
